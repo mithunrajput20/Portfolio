@@ -1,0 +1,20 @@
+body{
+    background-image: url("./Assets/img2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+h1{
+    color: rgb(147, 58, 16);
+    font-size:4rem;
+    text-decoration: underline dashed;
+    margin-left: 10px;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.container ul li{
+    padding: 10px;
+}
