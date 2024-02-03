@@ -1,0 +1,50 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background-image: url('./Assets/edu.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.education{
+    /* border: 2px solid black; */
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 6rem;
+    transition: 1s 0s ease-out;
+    color: whitesmoke;
+}  
+.education:hover{
+    box-shadow: 2px 0 50px black;
+}
+h1{
+    font-size: 3rem;
+    text-decoration: underline;
+}
+li{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav ul li a{
+    color:brown;
+    font-size: 20px;
+}
+.nav ul li{
+    list-style: none;
+    
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    padding:30px ;
+}
+.nav{
+    margin-top: 10px;
+}
