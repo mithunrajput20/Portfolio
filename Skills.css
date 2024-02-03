@@ -1,0 +1,45 @@
+body{
+    background-image: url("./Assets/img4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skill{
+    border: 2px solid black;
+    width: 500px ;
+    height: 400px;
+    border-radius: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 6rem;
+    transition: 1s ease-out;
+    
+}
+li{
+    list-style: none;
+}
+.skill:hover{
+    box-shadow: 2px 0px 30px black;
+}
+.skill ul li{
+    font-size: 1.5rem;
+    color: green;
+    padding: 5px;
+}
+.nav ul li a{
+    color:brown;
+    font-size: 20px;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    padding: 55px;
+}
+.nav{
+    margin-top: 10px;
+}
